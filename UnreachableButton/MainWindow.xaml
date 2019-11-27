@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:UnreachableButton"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="1280" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="Images/Space.png"/>
+    </Window.Background>
     <Grid MouseMove="Grid_MouseMove">
         <Button Content="Нажми на меня!" HorizontalAlignment="Left" Margin="374,182,0,0" VerticalAlignment="Top" Name="button" Width="100" Height="50" Click="buttonClicked"/>
 
